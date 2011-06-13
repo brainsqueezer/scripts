@@ -1,0 +1,182 @@
+
+rap@neonlight:~/Dropbox/Scripts$ ./domain.sh -f dominios.txt 
+
+Domain                              Registrar         Status   Expires     Days Left
+----------------------------------- ----------------- -------- ----------- ---------
+joshwoodward.com                    GODADDY.COM, INC. Valid    02-sep-2009   30     
+revistacms.com                      GODADDY.COM, INC. Valid    19-mar-2010   228    
+thecmsblog.com                      TUCOWS INC.       Expiring 16-aug-2009   13     
+advancescripts.com                  DIRECTI INTERNET  Valid    29-jul-2010   360    
+phpnuke-hispano.com                 NETTUNER CORP. DB Valid    29-oct-2009   87     
+superguarras.com                    NETWORK SOLUTIONS Valid    18-jul-2010   349    
+metrica.com                         IREGISTRY CORP.   Valid    31-oct-2011   819    
+metrica.es                          Unknown           Unknown  Unknown     Unknown  
+garaxe.com                          AUSTRALIAN STYLE  Valid    16-apr-2010   256    
+cms-spain.com                       ARSYS INTERNET, S Valid    28-sep-2012   1152   
+websgalicia.info                    rsys Internet S.L Valid    03-Apr-2010   243    
+galiciacity.com                     GKG.NET, INC.     Valid    08-jul-2010   339    
+sinxelo.com                         TUCOWS INC.       Valid    27-feb-2010   208    
+blogalego.com                       GODADDY.COM, INC. Valid    18-feb-2011   564    
+jujel.es                            Unknown           Unknown  Unknown     Unknown  
+jujel.com                           GODADDY.COM, INC. Valid    25-apr-2010   265    
+galegos.info                        rsys Internet S.L Valid    16-Oct-2009   74     
+sietecruces.com                     NOMINALIA INTERNE Valid    31-aug-2016   2585   
+agoragalega.org                     inahosting S.L. ( Valid    09-Apr-2010   249    
+parcelaria.com                      COMPUTER SERVICES Valid    24-jan-2011   539    
+fillos.org                          SL Computer Servi Valid    19-Mar-2010   228    
+planetagalego.info                  SL Computer Servi Valid    15-Jun-2010   316    
+degalicia.org                       SL Computer Servi Valid    23-Apr-2010   263    
+rankingwebsgalicia.com              ENOM, INC.        Valid    09-jul-2010   340    
+internetgalicia.info                rsys Internet S.L Valid    12-Apr-2010   252    
+internetgalicia.net                 ARSYS INTERNET, S Valid    12-apr-2010   252    
+empresasdegalicia.info              rsys Internet S.L Valid    06-Mar-2010   215    
+maisinternetmaisgalego.org          API GmbH (R1724-L Valid    24-Apr-2010   264    
+fgets: Connection reset by peer                                                     
+agestic.org                         Unknown           Unknown  Unknown     Unknown  
+galiciawebs.com                     EASYDNS TECHNOLOG Valid    10-aug-2010   372    
+vigometropolitano.com               DIRECTI INTERNET  Valid    30-oct-2009   88     
+datosvirtuales.net                  GODADDY.COM, INC. Valid    13-mar-2010   222    
+paxinas.com                         GODADDY.COM, INC. Valid    21-feb-2010   202    
+blogaliza.com                       INTERCOSMOS MEDIA Valid    10-jun-2010   311    
+kiyoaki.com                         INTERCOSMOS MEDIA Valid    19-sep-2010   412    
+blogalaxia.com                      ENOM, INC.        Valid    21-jul-2011   717    
+miradoiro.com                       OVH               Valid    09-aug-2010   371    
+bigpress.net                        SPOT DOMAIN LLC D Valid    24-nov-2009   113    
+bigpress.com                        ENOM, INC.        Valid    26-jan-2010   176    
+lycos-europe.com                    KEY-SYSTEMS GMBH  Valid    31-may-2010   301    
+lycos.es                            Unknown           Unknown  Unknown     Unknown  
+tripod.es                           Unknown           Unknown  Unknown     Unknown  
+lycos.be                            Unknown           Unknown  Unknown     Unknown  
+lycos.fr                            Unknown           Unknown  Unknown     Unknown  
+Timeout.                                                                            
+lycos.nl                            Unknown           Unknown  Unknown     Unknown  
+lycos.de                            Unknown           Unknown  Unknown     Unknown  
+lycos.it                            Unknown           Unknown  Unknown     Unknown  
+lycos.ch                            Unknown           Unknown  Unknown     Unknown  
+lycos.co.uk                         Unknown           Unknown  Unknown     Unknown  
+mercadogalego.com                   DINAHOSTING SL    Valid    10-oct-2010   433    
+spanish-interpreter.com             TUCOWS INC.       Valid    02-may-2010   272    
+spanish-interpreters.com            NETWORK SOLUTIONS Valid    31-jan-2014   1642   
+spanish-translator.com              GODADDY.COM, INC. Valid    16-apr-2011   621    
+spanish-translators.com             TUCOWS INC.       Valid    05-apr-2010   245    
+arcos.com                           ONLINENIC, INC.   Valid    24-jun-2010   325    
+inmigra.com                         INTERCOSMOS MEDIA Valid    07-jan-2011   522    
+oliviajohnstonlanguages.com         REGISTER.COM, INC Valid    24-jan-2010   174    
+phpnuke.org                         oDaddy.com, Inc.  Valid    03-Oct-2015   2252   
+php-nuke.org                        Nom, Inc. (R39-LR Valid    22-Feb-2010   203    
+phpnuke-fr.org                      ordnet (R62-LROR) Valid    17-Jan-2010   167    
+phpnuke-downloads.com               GODADDY.COM, INC. Valid    29-oct-2010   452    
+phpnuke-clan.net                    ENOM, INC.        Valid    17-sep-2009   45     
+nukeseo.com                         GODADDY.COM, INC. Valid    07-jul-2010   338    
+mamboserver.com                     MELBOURNE IT, LTD Valid    03-may-2010   273    
+mambo-foundation.org                oDaddy.com, Inc.  Valid    19-Jul-2010   350    
+mambo-developer.org                 Unknown           Unknown  Unknown     Unknown  
+fgets: Connection reset by peer                                                     
+mambo-code.org                      Unknown           Unknown  Unknown     Unknown  
+fgets: Connection reset by peer                                                     
+e-legalidad.org                     Unknown           Unknown  Unknown     Unknown  
+symbianstore.com                    GODADDY.COM, INC. Valid    19-aug-2010   381    
+miwifi.com                          WILD WEST DOMAINS Valid    21-feb-2010   202    
+cafewifi.com                        ASCIO TECHNOLOGIE Valid    09-apr-2010   249    
+wificafe.com                        GODADDY.COM, INC. Valid    20-feb-2010   201    
+galiciadigital.com                  ARSYS INTERNET, S Valid    12-may-2010   282    
+cmsenespanol.com                    GODADDY.COM, INC. Valid    10-sep-2009   38     
+dragonflycms.org                    oDaddy.com, Inc.  Valid    04-Nov-2010   458    
+smeego.com.es                       Unknown           Unknown  Unknown     Unknown  
+cms-hispano.org                     omain Registrar   Valid    18-Jul-2010   349    
+cms-hispano.com                     Unknown           Unknown  Unknown     Unknown  
+joomlahispano.org                   oDaddy.com, Inc.  Expiring 01-Sep-2009   29     
+cmsconsultants.org                  ierraNet Inc. dba Valid    15-Jan-2010   165    
+plone.org                           Unknown           Unknown  Unknown     Unknown  
+impresscms.org                      Unknown           Unknown  Unknown     Unknown  
+cmsfocus.com                        TUCOWS INC.       Valid    25-nov-2009   114    
+shadocms.com                        REGISTER.COM, INC Valid    25-may-2010   295    
+joomlaspanish.org                   Unknown           Unknown  Unknown     Unknown  
+wp-cms.com                          TUCOWS INC.       Valid    22-dec-2009   141    
+saurus.info                         oDaddy.com Inc. ( Valid    08-Feb-2013   1285   
+mambo-manual.org                    oDaddy.com, Inc.  Valid    27-Oct-2009   85     
+opensourcecms.com                   GODADDY.COM, INC. Valid    07-sep-2010   400    
+planetacms.com                      GODADDY.COM, INC. Valid    17-jun-2010   318    
+cmsmatrix.org                       oDaddy.com, Inc.  Valid    22-Apr-2011   627    
+cms-construcciones.com              ENOM, INC.        Valid    13-jan-2010   163    
+joomlaos.net                        DIRECTI INTERNET  Valid    20-sep-2009   48     
+poccms.com                          GODADDY.COM, INC. Valid    15-apr-2010   255    
+nucleuscms.org                      K2 Group Ltd. (R1 Valid    16-Mar-2010   225    
+jojocms.org                         LDs L.L.C. d/b/a  Valid    22-Dec-2009   141    
+cushycms.com                        DIRECTI INTERNET  Expiring 20-aug-2009   17     
+sitekit.net                         TUCOWS INC.       Valid    14-sep-2009   42     
+blogcms.com                         COMPUTER SERVICES Valid    07-jun-2010   308    
+e107.org                            elbourne IT, Ltd. Valid    27-Sep-2010   420    
+magnolia-cms.com                    NETWORK SOLUTIONS Valid    15-oct-2009   73     
+littlecms.com                       NETWORK SOLUTIONS Valid    22-nov-2009   111    
+plume-cms.net                       OVH               Expiring 14-aug-2009   11     
+cmseventos.com                      INTERCOSMOS MEDIA Valid    15-may-2010   285    
+komodocms.com                       ENETICA PTY LTD   Valid    29-jan-2010   179    
+NOMBRESWEB.NET                      ARSYS INTERNET, S Valid    12-jun-2010   313    
+forobloggers.com                    DYNADOT, LLC      Valid    24-may-2010   294    
+thinkbigpress.com                   TUCOWS INC.       Valid    12-feb-2010   193    
+yellowtimes.org                     oDaddy.com, Inc.  Valid    24-Jun-2010   325    
+acorunawireless.net                 DSTR ACQUISITION. Expired  20-jun-2009   -44    
+magnolia-cms.com                    NETWORK SOLUTIONS Valid    15-oct-2009   73     
+phpnuke-espanol.org                 Nom, Inc. (R39-LR Valid    13-Nov-2010   467    
+astrata.com.mx                      NIC Mexico        Valid    26-sep-2010   419    
+guppy-hispano.com                   WILD WEST DOMAINS Expired  15-jun-2009   -49    
+neocrome.net                        ENOM, INC.        Valid    25-jan-2010   175    
+cmsimple.dk                         Unknown           Unknown  Unknown     Unknown  
+doorsoft.org                        Nom, Inc. (R39-LR Valid    08-Nov-2009   97     
+dotnetnuke.com                      GODADDY.COM, INC. Valid    28-feb-2011   574    
+cpgnuke.com                         GODADDY.COM, INC. Valid    13-jan-2011   528    
+#puntowifi.com                      Unknown           Unknown  Unknown     Unknown  
+drupal.org                          ucows Inc. (R11-L Valid    26-Apr-2010   266    
+e107.org                            elbourne IT, Ltd. Valid    27-Sep-2010   420    
+ez.no                               REG201-NORID      Expired              -2455047 
+motion4graphics.com                 DIRECTI INTERNET  Valid    11-jun-2010   312    
+mambohispano.org                    Nom, Inc. (R39-LR Valid    24-Apr-2010   264    
+fgets: Connection reset by peer                                                     
+mediawiki.org                       Unknown           Unknown  Unknown     Unknown  
+moodle.org                          Unknown           Unknown  Unknown     Unknown  
+nucleuscms.org                      K2 Group Ltd. (R1 Valid    16-Mar-2010   225    
+truzone.org                         Unknown           Unknown  Unknown     Unknown  
+opencms.org                         Unknown           Unknown  Unknown     Unknown  
+fgets: Connection reset by peer                                                     
+openflavor.org                      Unknown           Unknown  Unknown     Unknown  
+php-update.co.uk                    Unknown           Unknown  Unknown     Unknown  
+poccms.com                          GODADDY.COM, INC. Valid    15-apr-2010   255    
+postnuke.com                        ENOM, INC.        Valid    01-jul-2010   332    
+spip.net                            GANDI SAS         Valid    11-sep-2010   404    
+textpattern.com                     EASYDNS TECHNOLOG Valid    26-jul-2010   357    
+plainblack.com                      EASYDNS TECHNOLOG Valid    13-jul-2010   344    
+xaraya.com                          GODADDY.COM, INC. Valid    02-sep-2010   395    
+esxoops.com                         ENOM, INC.        Valid    21-jan-2010   171    
+hispazope.org                       etwork Solutions  Valid    25-Oct-2011   813    
+absolutengine.com                   GODADDY.COM, INC. Valid    08-feb-2011   554    
+cmsenespanol.com                    GODADDY.COM, INC. Valid    10-sep-2009   38     
+firstream.net                       ENOM, INC.        Valid    25-jan-2010   175    
+pmachine.com                        NETWORK SOLUTIONS Valid    15-dec-2009   134    
+midgard-project.org                 SL Computer Servi Valid    11-May-2010   281    
+dacode.org                          oDaddy.com, Inc.  Valid    15-Jun-2010   316    
+phpreactor.org                      nternet.bs Corp.  Valid    14-Dec-2009   133    
+back-end.org                        Unknown           Unknown  Unknown     Unknown  
+dotvoid.com                         COMPUTER SERVICES Expiring 17-aug-2009   14     
+monauraljerk.org                    Unknown           Unknown  Unknown     Unknown  
+squishdot.org                       oDaddy.com, Inc.  Valid    16-Jul-2010   347
+beblogging.com                      GODADDY.COM, INC. Valid    15-may-2010   285
+fgets: Connection reset by peer
+rollerweblogger.org                 Unknown           Unknown  Unknown     Unknown
+manywhere.com                       GODADDY.COM, INC. Valid    16-jul-2010   347
+russellbeattie.com                  GODADDY.COM, INC. Valid    06-jun-2010   307
+cofax.org                           egister.com Inc.  Valid    03-Jul-2011   699
+opencms.org                         etwork Solutions  Valid    10-Jul-2012   1072
+liquidbytes.net                     HTTP.NET INTERNET Valid    23-sep-2009   51
+tikiwiki.org                        oDaddy.com, Inc.  Valid    14-Oct-2010   437
+logicreate.com                      DOTSTER, INC.     Valid    14-oct-2009   72
+openphpnuke.com                     PSI-USA, INC. DBA Expiring 29-aug-2009   26
+symphony-cms.com                    TUCOWS INC.       Valid    24-apr-2010   264
+expressionengine.com                NETWORK SOLUTIONS Valid    25-feb-2011   571
+madebyfrog.com                      GANDI SAS         Valid    08-sep-2010   401
+blogcms.com                         COMPUTER SERVICES Valid    07-jun-2010   308
+cms-es.com                          MONIKER ONLINE SE Valid    07-mar-2014   1677
+dev-postnuke.com                    ENOM, INC.        Valid    20-oct-2009   78
+tandemserver.net                    GODADDY.COM, INC. Valid    30-jun-2010   331
+freeguppy.org                       andi SAS (R42-LRO Valid    03-Aug-2010   365
+#supermercart.com                   NOMINALIA INTERNE Expired  30-jun-2009   -34

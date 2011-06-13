@@ -1,0 +1,51 @@
+#!/bin/sh
+
+remote_dir="vacavella.dyndns.org:/home/rap/www/sata/Proyectos/"
+local_dir="/home/rap/Proyectos/"
+
+project_dir="$2"
+#rsync --partial -r -a -v -e "ssh"  /home/rap/tocopy/ 192.168.1.80:/home/rap/tocopy/
+#rsync --partial --progress -r -a -v -e "ssh"  /home/rap/tocopy/ 192.168.2.10:/home/rap/tocopy/
+#rsync --partial --progress --delete -u -n -r -a -v -e "ssh"  /home/rap/tocopy/ 192.168.1.80:/home/rap/tocopy/
+
+
+case "$1" in
+      up)
+#tocopy
+echo "Up " $local_dir$project_dir
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $local_dir $remote_dir 
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $remote_dir $local_dir 
+;;
+      down)
+
+echo "Down " $local_dir$project_dir
+#tocopy
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $local_dir $remote_dir 
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $remote_dir $local_dir 
+;;
+      merge)
+
+echo "Merge " $local_dir$project_dir
+#tocopy
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $local_dir $remote_dir 
+rsync --partial --progress -n -u -r -a -v -e "ssh"  $remote_dir $local_dir 
+#-n solo prueba
+#-u update skip if newer ion destination
+
+
+        ;;
+      serverlist)
+	
+	rsync $remote_dir
+
+        ;;
+      locallist)
+	
+	ls $local_dir
+;;
+      *)
+      echo "Usage: $0 {list|up|down|merge}"
+
+   ;;
+ esac
+

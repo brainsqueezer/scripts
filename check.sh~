@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+export i=71440236
+export j=71440299
+
+
+while [ $i -lt $j ]
+do echo $i
+dd if=/dev/sda of=/dev/null bs=512 count=1 skip=$i
+
+let i+=1
+done
