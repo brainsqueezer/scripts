@@ -8,16 +8,16 @@ antirobo.py
 bluepim.py
 brightness
 buscared.sh
-calcwlan.sh
+calcwlan.sh - 
 check.sh
 cleankde.sh
 cleartemp.sh
 clock.sh
-conecta.py
+conecta.py - Prueba de conexión a networkmanager
 crono.sh
 david2.sh - Monitoriza como top pero solo un proceso	
 delcontain
-delevil
+delevil - Elimina los maleficos ficheros Thumbs.db
 dellpower.sh
 diskwrite.sh
 dnsupdate.sh
@@ -45,7 +45,6 @@ mpc2mp3
 nm2.py
 nmotro.py
 nm.py
-oldscripts
 online.sh
 open.sh
 osx.sh
@@ -56,7 +55,7 @@ parsexml.rb
 performance.sh
 psql_grant - Añade permisos a un usuario en PostgreSQL 8
 project.sh
-proxy-android.sh
+proxy-android.sh - Para usar Android como Proxy
 prueba1.py
 rapid-download.sh
 README.txt
@@ -64,16 +63,15 @@ rename.sh
 repack.py
 replace.rb
 replace.sh
-root
 rotate.sh
 screen.sh
 sinergia.sh
 skype
-skypecall.pl
+skypecall.pl - realiza llamadas a traves de Skype
 snap.jpg
 swapboost.sh
 teclado.sh
-test.py
+test.py - Algun tipo de test en network manager
 tiempo.sh
 todo.py
 todo.sh
