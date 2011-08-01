@@ -52,23 +52,21 @@ parseg3.rb
 parsehtml.rb
 parsejson.rb
 parsexml.rb
-performance.sh
+performance.sh - Some performance tips
 psql_grant - Añade permisos a un usuario en PostgreSQL 8
 project.sh
 proxy-android.sh - Para usar Android como Proxy
 prueba1.py
 rapid-download.sh
 README.txt
-rename.sh
+rename.sh - Renombrados al viejo estilo MSDOS
 repack.py
-replace.rb
-replace.sh
-rotate.sh
+replace.rb - Reemplaza
+replace.sh - Reemplaza
+rotate.sh - Rota la pantalla, util para tablets
 screen.sh
 sinergia.sh
-skype
 skypecall.pl - realiza llamadas a traves de Skype
-snap.jpg
 swapboost.sh
 teclado.sh
 test.py - Algun tipo de test en network manager
