@@ -26,6 +26,7 @@ domain.sh
 finddupes.sh
 firefox.sh
 getscancodes
+git2package.sh - Clona git, compila y crea paquete todo en uno
 global.sh
 gputemp
 hello.rb
