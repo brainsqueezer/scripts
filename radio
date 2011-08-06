@@ -1,0 +1,31 @@
+#!/bin/bash
+# Creado por Frodo45127
+# Aquí se coloca el reproductor que quieras usar
+player="xine"
+
+# Estos son los nombres de las emisoras y su orden
+radio=$(zenity --list --title="Radio" --text="Selecciona una emisora de radio" --column="" --column="#" --column="Emisoras de radio" --radiolist FALSE 1 "Los 40 principales" FALSE 2 "Cadena dial" FALSE 3 "Europa FM" FALSE 4 "Cadena Ser" FALSE 5 "Onda Cero" FALSE 6 "Kiss FM" FALSE 7 "Radiolé" FALSE 8 "COPE" FALSE 9 "RNE clásica" FALSE 10 "m80 Radio" --height="370" --width="370")
+
+# Estas son las emisoras de radio (KISS FM solo funciona en xine)
+if [ "$radio" = "1" ]; then
+	$player http://194.169.201.177:8085/live3.mp3
+elif [ "$radio" = "2" ]; then
+	$player http://194.169.201.177:8085/liveDial.mp3
+elif [ "$radio" = "3" ]; then
+	$player http://195.10.10.211/europafm/europafm.mp3
+elif [ "$radio" = "4" ]; then
+	$player http://194.169.201.177:8085/liveser.mp3
+elif [ "$radio" = "5" ]; then
+	$player mms://ondacerolivewm.fplive.net/ondacerowmlive-live/oc_toledo
+elif [ "$radio" = "6" ]; then
+	$player http://kissfm.en-directo.com/kissfm.asx
+elif [ "$radio" = "7" ]; then
+	$player http://194.169.201.177:8085/liveRadiOle.mp3
+elif [ "$radio" = "8" ]; then
+	$player http://cope.stream.flumotion.com/cope/copefm.mp3.m3u
+elif [ "$radio" = "9" ]; then
+	$player http://www.rtve.es/rne/audio/RNEclasica.asx
+elif [ "$radio" = "10" ]; then
+	$player http://194.169.201.177:8085/liveM80.mp3
+fi
+
