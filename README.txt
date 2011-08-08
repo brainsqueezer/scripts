@@ -114,3 +114,8 @@ mpc2mp3.sh
 OTROS INTERESANTES (Instalables)
 convmv - converts filenames from one encoding to another
 http://code.activestate.com/recipes/
+http://cheat.errtheblog.com/ - Command line cheat sheets from command line
+http://code.google.com/p/googlecl/
+http://code.google.com/p/gcalcli/
+http://fbcmd.dtompkins.com/ - Facebook command line
+http://gabrielcain.com/projects/twitter/ - Twitter command line
