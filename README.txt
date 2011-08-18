@@ -108,6 +108,10 @@ wma2mp3.sh - Busca los feos ficheros WMA dentro de un directorio y los convierte
 mpc2mp3.sh
 
 
+CODING
+gems_save - Guarda una lista delas gemas instaladas
+gems_recover - Instala las gemas a partir de un archivo
+
 
 OTROS INTERESANTES (Instalables)
 convmv - converts filenames from one encoding to another
@@ -117,3 +121,4 @@ http://code.google.com/p/googlecl/
 http://code.google.com/p/gcalcli/
 http://fbcmd.dtompkins.com/ - Facebook command line
 http://gabrielcain.com/projects/twitter/ - Twitter command line
+http://news.ycombinator.com/item?id=2880800 - debugging for webdevs
