@@ -16,6 +16,7 @@ check.sh - Restos de algun experimento para comprobar areas defectuosas del disc
 cleankde.sh
 cleartemp.sh
 clock.sh - Algun tipo de reloj
+commit-button.sh
 conecta.py - Prueba de conexión a networkmanager
 crono.sh - Cronometro sencillo
 david2.sh - Monitoriza como top pero solo un proceso	
