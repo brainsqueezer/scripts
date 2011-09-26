@@ -1,7 +1,11 @@
 #!/bin/sh
 
-cd ~/Webs/diario
 var1=$(kdialog --title "Commit button" --inputbox "Texto del commit" "")
-git add .
-git commit -m "$var1"
+cd ~/Webs/diario
+git commit -a -m "$var1"
+git push; ./deploy.sh
+cd ~/Webs/bp
+git commit -a -m "$var1"
+git push; ./deploy.sh
+
 
