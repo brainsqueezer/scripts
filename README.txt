@@ -33,6 +33,7 @@ ipokii.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal 
 ipoki.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal de las redes wifi
 kff.sh
 lareta.py
+launchpad-update - Busca las claves que te faltan de launchpad
 locatecolors.sh - Elimina todos los colores de una imagen salvo un rango concreto. Con imagemagick
 nm2.py
 nmotro.py
@@ -89,7 +90,9 @@ delcontain.sh - Elimina los ficheros que contengan una cadena
 finddupes.sh - Encuentra ficheros repetidos
 findlarge.sh - Encuentra ficheros grandes (>100 MB)
     Recuerda: ./findlarge.sh / > largefiles.txt &
-filenames2ascii.sh
+filenames2ascii.sh - Reemplaza caracteres no ASCII de los nombres de archivo
+    para disfrutar de perfecta compatibilidad. Creia que ya estaba listo pero la
+    ultima ejecucion demostro que aun no
 inotify_autocommit.sh - Hace commit y push automaticamente cuando un ficher es modificado
 inotify_logs.sh - Avisa cuando un fichero d elog ha sido modificado
 inotify_rsync.sh - Hace rsync automaticamente cuando un fichero es modificado
