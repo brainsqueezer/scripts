@@ -16,7 +16,6 @@ check.sh - Restos de algun experimento para comprobar areas defectuosas del disc
 cleankde.sh
 cleartemp.sh
 clock.sh - Algun tipo de reloj
-commit-button.sh
 conecta.py - Prueba de conexión a networkmanager
 crono.sh - Cronometro sencillo
 david2.sh - Monitoriza como top pero solo un proceso	
@@ -28,18 +27,11 @@ firefox.sh - Este no es el descargador y compilador de firefox. To update
 git2package.sh - Clona git, compila y crea paquete todo en uno
 global.sh - Ejecuta un comando en cada subdirectorio
 gputemp.sh - Muestra la temperatura de la GPU
-hello.rb
 ipokii.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal de las redes wifi
 ipoki.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal de las redes wifi
 kff.sh
 lareta.py
 locatecolors.sh - Elimina todos los colores de una imagen salvo un rango concreto. Con imagemagick
-magic22.sh
-magic2.sh
-magic3.sh
-magic44.sh
-magic4.sh
-magic.sh
 nm2.py
 nmotro.py
 nm.py
@@ -52,7 +44,6 @@ parsexml.rb
 performance.sh - Some performance tips
 psql_grant.sh - Añade permisos a un usuario en PostgreSQL 8
 project.sh - Gestor simple de proyectos para subir y bajar proyectos en un servidor remoto
-prueba1.py
 rapid-download.sh - Descarga un archivo de rapidshare
 rotate.sh - Rota la pantalla, util para tablets
 screen.sh - Realiza capturas de pantallas
@@ -108,13 +99,24 @@ svn2git.sh -r path/to/svn/repo -a path/to/authorsfile
 VIDEO y AUDIO
 repack.py - Convierte ficheros Matroska
 wma2mp3.sh - Busca los feos ficheros WMA dentro de un directorio y los convierte a felices ficheros MP3
-mpc2mp3.sh
-dvdrip.sh - Ripea un DVd y lo guarda como MKV (Matroska)
+mpc2mp3.sh -
+dvdrip.sh - Ripea un DVD y lo guarda como MKV (Matroska)
+video2yt.sh - Convierte a un formato compatible con YouTube. En desarrollo. No
+funciona
 
 CODING
 gems_save - Guarda una lista delas gemas instaladas
 gems_recover - Instala las gemas a partir de un archivo
+commit-button.sh - Esto lo tengo programado en un boton del teclado
 
+PRUEBAS - Esto no creo que te interese
+magic22.sh
+magic2.sh
+magic3.sh
+magic44.sh
+magic4.sh
+magic.sh
+prueba1.py
 
 OTROS INTERESANTES (Instalables)
 convmv - converts filenames from one encoding to another
