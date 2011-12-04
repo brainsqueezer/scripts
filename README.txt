@@ -51,6 +51,7 @@ rotate.sh - Rota la pantalla, util para tablets
 screen.sh - Realiza capturas de pantallas
 sinergia.sh - Numero de resultados en Google para una frase
 skypecall.pl - realiza llamadas a traves de Skype
+spark - Generates sparklines for a set of data
 swapboost.sh - Crea una memoria SWAP en un USB
 teclado.sh - Corrige la configuración del teclado de Xorg
 test.py - Algun tipo de test en network manager
