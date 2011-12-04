@@ -71,6 +71,7 @@ WIFI
 buscared.sh - Busca una forma de conectarse a internet como sea.
     Wifis abiertas, wifis abiertas pero con dhcp mal configurado o cerradas. Beta
 calcwlan.sh - Calcula contraseñas de Wifi para casos de emergencia
+calcwlan-ng.sh - Version mejora que ademas de calcular busca
 kproxyswitch.sh - Cambia la configuracion del proxy de KDE
 dnsupdate.sh - Actualiza tu dns en DynDNS a partir de la IP externa de la maquina actual
 online.sh - Detecta si estás conectado a internet
