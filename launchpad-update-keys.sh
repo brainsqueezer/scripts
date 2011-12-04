@@ -1,5 +1,7 @@
 #!/bin/sh
-
+#
+# 
+#
 # ¿Qué usuario de Ubuntu no ha tenido a tenido alguna vez problemas las claves GPG
 # de los repositorios?. Para solucionar esto está este script. Se ejecuta por
 # consola especificando la version (karmic, jaunty, intrepid o hardy) y te busca
