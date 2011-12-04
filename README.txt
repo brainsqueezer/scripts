@@ -109,7 +109,7 @@ VIDEO y AUDIO
 repack.py - Convierte ficheros Matroska
 wma2mp3.sh - Busca los feos ficheros WMA dentro de un directorio y los convierte a felices ficheros MP3
 mpc2mp3.sh
-
+dvdrip.sh - Ripea un DVd y lo guarda como MKV (Matroska)
 
 CODING
 gems_save - Guarda una lista delas gemas instaladas
