@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Author: Carolina F. Bravo <carolinafbravo@gmail.com>
+#
 
 if [ $# -ne 2 ]; then
   echo "ussage: download.sh <links_file> <download_folder>"

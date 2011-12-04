@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 #xrandr -o left
 #xrandr -o right

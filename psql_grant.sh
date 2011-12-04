@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 ER="$2"
 PSQL="psql -q -n -A -t"

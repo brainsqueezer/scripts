@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 #for oldname in `ls -b -1F | grep \/$` ; do
 #echo $oldname

@@ -1,4 +1,7 @@
 #!/usr/bin/python
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 import dbus
  
 NM_DBUS_SERVICE = "org.freedesktop.NetworkManager"

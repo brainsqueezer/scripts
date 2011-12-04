@@ -1,5 +1,6 @@
 #!/bin/sh
-
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
 # Convierte a formato compatible con YouTube
 # Aun no funciona, Work in progress
 

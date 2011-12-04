@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
 # This script uses "dyndnsupdate" available at http://www.bebits.com/app/2927
 # /etc/dhcp3/dhclient-exit-hooks.d/ddnsupdate
 

@@ -7,6 +7,9 @@
 # SYNOPSYS		delcontain <sdir> <token>
 #
 # DESCRIPTION	Elimina todos los archivos dentro del directorio <sdir> que contienen <token> de forma recursiva
+#
+# AUTHOR Carolina F. Bravo <carolinafbravo@gmail.com>
+# AUTHOR Ramon Antonio Parada <rap@ramonantonio.net>
 ##
 ###
 

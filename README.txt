@@ -1,5 +1,7 @@
 
 Esta es una lista de los scripts incluidos. La mayoría son para automatizar tareas repetitivas
+No garantizo nada. Muchos están sin acabar.
+Usamase el riesgo de utilizarlos
 
 action_handler_1.0.py - Creo que usado por skypecall
 agent.py - Creo que suado pro bluepim

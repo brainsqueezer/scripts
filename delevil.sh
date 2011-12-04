@@ -1,7 +1,7 @@
 #!/bin/bash
-
 ###
 ##
+#
 # NAME			delevil - delete evil files
 #
 # SYNOPSIS	 	delevil <efile> <spath>
@@ -11,6 +11,8 @@
 # NOTE			El path donde esta el script tiene que estar incluido en el PATH de bash
 # 					PATH=$PATH:script_path; export PATH;
 #
+# AUTHOR Carolina F. Bravo <carolinafbravo@gmail.com>
+# AUTHOR Ramon Antonio Parada <rap@ramonantonio.net>
 ##
 ###
 

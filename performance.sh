@@ -1,4 +1,9 @@
 #!/bin/sh
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
+
+
 . /lib/lsb/init-functions
 
  YNAME="${0##*/}"

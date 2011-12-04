@@ -8,6 +8,9 @@
 #
 # DESCRIPTION	Convierte todos los ficheros .wma que contiene el directorio <srcdir> en mp3 
 # 					y los almacena en el directorio <destdir>
+#
+# AUTHOR Carolina F. Bravo <carolinafbravo@gmail.com>
+# AUTHOR Ramon Antonio Parada <rap@ramonantonio.net>
 ##
 ###
 

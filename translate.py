@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
 #apt-get install libsox-fmt-all
 
 #The following commands will look for 1.5 seconds worth of silence as a point to split.1

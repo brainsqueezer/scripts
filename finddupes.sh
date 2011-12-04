@@ -1,6 +1,7 @@
 #!/bin/sh
 #http://elonen.iki.fi/code/misc-notes/remove-duplicate-files/
-
+#
+#
 
 OUTF=rem-duplicates.sh;
 echo "#! /bin/sh" > $OUTF;

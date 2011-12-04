@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 function buscared() {
    local ifname=$1;

@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# author: Carolina F. Bravo <carolinafbravo@gmail.com>
+#
 
 if [ $# != 1 ]; then
 	echo "usage: wifi-scan <interface>"

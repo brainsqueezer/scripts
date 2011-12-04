@@ -1,5 +1,7 @@
 #!/bin/sh
-
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 #export i=1171440236
 #export j=1171440299

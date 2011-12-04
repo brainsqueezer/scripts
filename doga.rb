@@ -1,4 +1,7 @@
 #!/usr/bin/ruby
+#
+# Author: Ramon Antonio Parada <ramon@bigpress.net>
+#
 
 require 'net/http'
 require 'rexml/document'

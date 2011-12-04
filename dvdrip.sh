@@ -1,6 +1,6 @@
 #!/bin/bash -x
 #
-# Author: Carolina F. Bravo <carolinafbravo@gmail.com
+# Author: Carolina F. Bravo <carolinafbravo@gmail.com>
 #
 # Ripea un dvd y lo guarda como mkv
 

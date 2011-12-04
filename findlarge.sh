@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 # if nothing is passed to the script, show usage and exit
 [[ -n "$1" ]] || { echo “Usage: findlarge [PATHNAME]“; exit 0 ; }
 # simple using find, $1 is the first variable passed to the script
