@@ -1,6 +1,6 @@
 #!/bin/bash                                                                     
-
-
+# pendientes: ono4xx wlan_xx wlan4xx
+# pendientes: DLINK, ADSLXXXXXX y SpeedTouchXXXX
 #Generador de claves para JAZZTEL_XXXX y WLAN_XXXX
 #http://kz.ath.cx/wlan/                                                                                
 echo CalcWLAN by a.s.r                                                          

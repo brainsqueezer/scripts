@@ -33,11 +33,7 @@ ipokii.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal 
 ipoki.py - Actualiza tu posicion en Ipoki triangulando la insentidad de señal de las redes wifi
 kff.sh
 lareta.py
-<<<<<<< HEAD
 launchpad-update-keys.sh - Busca las claves que te faltan de launchpad
-=======
-launchpad-update - Busca las claves que te faltan de launchpad
->>>>>>> 6d97d35e0c5c7a53ba293a41776a41abeb4fa708
 locatecolors.sh - Elimina todos los colores de una imagen salvo un rango concreto. Con imagemagick
 nm2.py
 nmotro.py
@@ -76,6 +72,7 @@ WIFI
 buscared.sh - Busca una forma de conectarse a internet como sea.
     Wifis abiertas, wifis abiertas pero con dhcp mal configurado o cerradas. Beta
 calcwlan.sh - Calcula contraseñas de Wifi para casos de emergencia
+calcwlan-ng.sh - Version mejora que ademas de calcular busca
 kproxyswitch.sh - Cambia la configuracion del proxy de KDE
 dnsupdate.sh - Actualiza tu dns en DynDNS a partir de la IP externa de la maquina actual
 online.sh - Detecta si estás conectado a internet
