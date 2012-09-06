@@ -87,6 +87,7 @@ codemod.py - Realiza reemplazos basandose en expresiones regulares. Muestra
 diffs
 delevil.sh - Elimina los maleficos ficheros Thumbs.db. Para la proxima version eliminar tb los desktop.ini y la carpeta esa del MacOS
 delcontain.sh - Elimina los ficheros que contengan una cadena
+dump-all.sh - crea copia de seguridad de todas las bbdd del servidor mysql
 finddupes.sh - Encuentra ficheros repetidos
 findlarge.sh - Encuentra ficheros grandes (>100 MB)
     Recuerda: ./findlarge.sh / > largefiles.txt &
