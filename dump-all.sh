@@ -14,13 +14,15 @@
 # Note: The script will prompt for a password, you cannot specify it as command line argument for security reasons
 #
 # based on the solution from: sonia 16-nov-05 (http://soniahamilton.wordpress.com/2005/11/16/backup-multiple-databases-into-separate-files/)
-
+#
+# TODO:
+# http://serverfault.com/questions/94495/how-do-i-backup-a-mysql-database-but-at-low-priority
 
 PROG_NAME=$(basename $0)
-USER=""
+USER="root"
 PASSWORD=""
-OUTPUTDIR=${PWD}
-GZIP_ENABLED=0
+OUTPUTDIR=~/db_backups
+GZIP_ENABLED=1
 GZIP=""
 
 MYSQLDUMP="/usr/bin/mysqldump"
@@ -28,27 +30,33 @@ MYSQL="/usr/bin/mysql"
 
 while getopts u:o:z OPTION
 do
-    case ${OPTION} in
-        u) USER=${OPTARG};;
-        o) OUTPUTDIR=${OPTARG};;
-        z) GZIP_ENABLED=1;;
-        ?) echo "Usage: ${PROG_NAME} [ -u username -o output_dir -z ]"
-           exit 2;;
-    esac
+	case ${OPTION} in
+		u) USER=${OPTARG};;
+		o) OUTPUTDIR=${OPTARG};;
+		z) GZIP_ENABLED=1;;
+		?) echo "Usage: ${PROG_NAME} [ -u username -o output_dir -z ]"
+		exit 2;;
+	esac
 done
 
 if [ "$USER" != '' ]; then
 
-echo "Enter password for" $USER":"
-oldmodes=`stty -g`
-stty -echo
-read PASSWORD
-stty $oldmodes
+	echo "Enter password for" $USER":"
+	oldmodes=`stty -g`
+	stty -echo
+	read PASSWORD
+	stty $oldmodes
 
 fi
 
+
+printf "\n\n********************************************\n\Database Backup r Log for:\n\t"
+echo $TODAY 
+printf "********************************************\n" $TODAY
+
+
 if [ ! -d "$OUTPUTDIR" ]; then
-    mkdir -p $OUTPUTDIR
+	mkdir -p $OUTPUTDIR
 fi
 
 # get a list of databases
@@ -56,10 +64,15 @@ databases=`$MYSQL --user=$USER --password=$PASSWORD -e "SHOW DATABASES;" | grep 
 
 # dump each database in turn
 for db in $databases; do
-    echo $db
+	echo $db
 	if [ $GZIP_ENABLED == 1 ]; then
 		$MYSQLDUMP --force --opt --user=$USER --password=$PASSWORD --databases $db | gzip > "$OUTPUTDIR/$db.gz"
 	else
-	    $MYSQLDUMP --force --opt --user=$USER --password=$PASSWORD --databases $db > "$OUTPUTDIR/$db.sql"
-   	fi    
+		$MYSQLDUMP --force --opt --user=$USER --password=$PASSWORD --databases $db > "$OUTPUTDIR/$db.sql"
+	fi
 done
+
+
+printf "\n\n********************************************\n" 
+date
+printf "\n\n********************************************\n" 

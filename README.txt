@@ -66,7 +66,7 @@ vista.py - Deja colgado un windows vista por un fallo de Samba
 vistafonts-installer.sh - Instala todas las fuentes de windows vista en el sistema
 webfonts.sh - Instala todas las google web fonts en el sistema
 workspace.sh - Gestor/sincronizador de proyectos mediante Rsync. Igual que project.sh
-
+gtranslate.sh - Traduce documentos directamente desde linea de comandos
 
 WIFI
 buscared.sh - Busca una forma de conectarse a internet como sea.
@@ -80,9 +80,11 @@ proxy-android.sh - Para usar Android como Proxy
 wifi2.sh
 wifi80.sh
 wifi-scan.sh - Muestra intensidad de redes wifi
+whatismyip.sh - Comprueba tu IP publica de Internet
 
 
 FICHEROS
+backup-subdirs.sh - Crea copias de seguridad tgz de todos los sudirectorios
 codemod.py - Realiza reemplazos basandose en expresiones regulares. Muestra
 diffs
 delevil.sh - Elimina los maleficos ficheros Thumbs.db. Para la proxima version eliminar tb los desktop.ini y la carpeta esa del MacOS
