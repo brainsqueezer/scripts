@@ -85,6 +85,7 @@ whatismyip.sh - Comprueba tu IP publica de Internet
 
 FICHEROS
 backup-subdirs.sh - Crea copias de seguridad tgz de todos los sudirectorios
+s3backups.sh - Rotacion de backups utilizando s3cmd
 codemod.py - Realiza reemplazos basandose en expresiones regulares. Muestra
 diffs
 delevil.sh - Elimina los maleficos ficheros Thumbs.db. Para la proxima version eliminar tb los desktop.ini y la carpeta esa del MacOS

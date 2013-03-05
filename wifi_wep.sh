@@ -1,6 +1,7 @@
 #! /bin/bash
 #Script wifihack por snakingmax.
 # http://foro.elhacker.net/hacking_wireless/script_sencillo_para_hackear_claves_wep_funcionando-t284110.0.html
+# Paquetes necesarios macchanger
 
 sudo rm -r /tmp/wifihack/
 sudo mkdir /tmp/wifihack/
